@@ -1,0 +1,26 @@
+{
+  "name": "component-render-hogan",
+  "version": "0.0.1",
+  "description": "Hogan.js template engine for component-render plugin",
+  "keywords": [
+    "component",
+    "component-render",
+    "template engine"
+  ],
+  "author": "kazupon (kazuya kawaguchi) <k.kawaguchi@frapwings.jp>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Farpwings/component-render-hogan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frapwings/component-render-hogan/issues"
+  },
+  "dependencies": {
+    "debug": "~0.7.2",
+    "hogan.js": "~2.0.0"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
