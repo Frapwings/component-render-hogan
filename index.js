@@ -5,6 +5,7 @@
  */
 var hogan = require('hogan.js');
 var debug = require('debug')('component-render-hogan');
+var path = require('path');
 var fs = require('fs');
 
 
@@ -16,7 +17,8 @@ module.exports = function (template, program, fn) {
 
   var local = {};
   if (program.local) {
-    local = require(program.local);
+    var resolve_path = path.resolve(program.local);
+    local = fs.existsSync(resolve_path) ? require(resolve_path) : require(resolve_path + '.json');
   }
 
   fs.readFile(template, { encoding: 'utf8' }, function (err, data) {
