@@ -17,9 +17,6 @@
 
 ```
 
-    # render html file from template file
-    $ component render --use component-render-hogan hulk.mustache
-
     # render html file from template file with local json file
     $ component render --use component-render-hogan --local user.json user.mustache
 
