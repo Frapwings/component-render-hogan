@@ -1,5 +1,7 @@
 # component-render-hogan
 
+[![Build Status](https://travis-ci.org/Frapwings/component-render-hogan.png?branch=master)](https://travis-ci.org/Frapwings/component-render-hogan)
+
 [Hogan.js](http://twitter.github.io/hogan.js/) template engine for [component-render](https://github.com/Frapwings/component-render) plugin
 
 
